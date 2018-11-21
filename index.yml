@@ -120,6 +120,6 @@
 4.4.3_23530: https://packages.appdynamics.com/java/4.4.3.23530/AppServerAgent-4.4.3.23530.zip
 4.5.0_23604: https://packages.appdynamics.com/java/4.5.0.23604/AppServerAgent-4.5.0.23604.zip
 4.5.1_23676: https://packages.appdynamics.com/java/4.5.1.23676/AppServerAgent-4.5.1.23676.zip
-4.5.2_23891: https://packages.appdynamics.com/java/4.5.2.23891/AppServerAgent-4.5.2.23891.zip
+4.5.2_23891: https://github.com/gedigital-apm/appdynamics-agents/blob/master/AppServerAgent-4.5.2.23891.zip?raw=true
 4.5.2_24246: https://packages.appdynamics.com/java/4.5.2.24246/AppServerAgent-4.5.2.24246.zip
 4.5.4_24355: https://packages.appdynamics.com/java/4.5.4.24355/AppServerAgent-4.5.4.24355.zip
