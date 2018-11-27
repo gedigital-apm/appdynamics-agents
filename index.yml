@@ -90,7 +90,7 @@
 4.3.4_3: https://packages.appdynamics.com/java/4.3.4.3/AppServerAgent-4.3.4.3.zip
 4.3.5_1: https://packages.appdynamics.com/java/4.3.5.1/AppServerAgent-4.3.5.1.zip
 4.3.5_10: https://packages.appdynamics.com/java/4.3.5.10/AppServerAgent-4.3.5.10.zip
-4.3.5_11: https://packages.appdynamics.com/java/4.3.5.11/AppServerAgent-4.3.5.11.zip
+4.3.5_11: https://raw.githubusercontent.com/gedigital-apm/appdynamics-agents/master/AppServerAgent-4.3.5.11.zip
 4.3.5_12: https://packages.appdynamics.com/java/4.3.5.12/AppServerAgent-4.3.5.12.zip
 4.3.5_13: https://packages.appdynamics.com/java/4.3.5.13/AppServerAgent-4.3.5.13.zip
 4.3.5_2: https://packages.appdynamics.com/java/4.3.5.2/AppServerAgent-4.3.5.2.zip
@@ -119,8 +119,7 @@
 4.4.3_23079: https://packages.appdynamics.com/java/4.4.3.23079/AppServerAgent-4.4.3.23079.zip
 4.4.3_23530: https://packages.appdynamics.com/java/4.4.3.23530/AppServerAgent-4.4.3.23530.zip
 4.5.0_23604: https://packages.appdynamics.com/java/4.5.0.23604/AppServerAgent-4.5.0.23604.zip
-4.5.1_23676: https://raw.githubusercontent.com/gedigital-apm/appdynamics-agents/master/AppServerAgent-4.5.1.23676.zip
-4.5.2_23891: https://raw.githubusercontent.com/gedigital-apm/appdynamics-agents/master/AppServerAgent-4.5.2.23891-4.zip
+4.5.1_23676: https://packages.appdynamics.com/java/4.5.1.23676/AppServerAgent-4.5.1.23676.zip
+4.5.2_23891: https://packages.appdynamics.com/java/4.5.2.23891/AppServerAgent-4.5.2.23891.zip
 4.5.2_24246: https://packages.appdynamics.com/java/4.5.2.24246/AppServerAgent-4.5.2.24246.zip
 4.5.4_24355: https://packages.appdynamics.com/java/4.5.4.24355/AppServerAgent-4.5.4.24355.zip
-4.5.5_24422: https://raw.githubusercontent.com/gedigital-apm/appdynamics-agents/master/AppServerAgent-4.5.5.24422.zip
