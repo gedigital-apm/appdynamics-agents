@@ -37,7 +37,9 @@ while IFS='' read -r target || [[ -n "$target" ]]; do
     cp -f "$config_file" $output_dir/$agent_folder/ver*/conf/$config_file
 
     echo "    Zipping '$output_dir/$agent_filename' to '$output_dir/$agent_folder'"
-    zip -r "$output_dir/$agent_filename" $output_dir/$agent_folder/* > /dev/null 2>&1
+    cd "$output_dir/$agent_folder"
+    zip -r "../$agent_filename" * > /dev/null 2>&1
+    cd "../.."
     rm -rf "$output_dir/$agent_folder"
 
     echo "    Updating $index_filename..."
