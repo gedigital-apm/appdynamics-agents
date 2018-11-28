@@ -77,8 +77,8 @@
                                match-pattern="password"/>
 
         <sensitive-data-filter applies-to="environment-variables,system-properties"
-                               match-type="CONTAINS"
-                               match-pattern="key"/>
+                               match-type="REGEX"
+                               match-pattern=".*"/>
 
     </sensitive-data-filters>
 
