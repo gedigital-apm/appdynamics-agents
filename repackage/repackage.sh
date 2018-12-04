@@ -34,7 +34,9 @@ while IFS='' read -r target || [[ -n "$target" ]]; do
 
     config_file="app-agent-config.xml"
     echo "    Copying over $config_file..."
-    cp -f "$config_file" $output_dir/$agent_folder/ver*/conf/$config_file
+    #cp -f "$config_file" $output_dir/$agent_folder/ver*/conf/$config_file
+    sed -i 's/match-type="CONTAINS"/match-type="REGEX"/g' $output_dir/$agent_folder/ver*/conf/$config_file
+    sed -i 's/"password"/"\.*"/g' $output_dir/$agent_folder/ver*/conf/$config_file
 
     echo "    Zipping '$output_dir/$agent_filename' to '$output_dir/$agent_folder'"
     cd "$output_dir/$agent_folder"
